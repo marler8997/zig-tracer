@@ -1,0 +1,19 @@
+.{
+    .name = "zig-tracer",
+    .version = "0.0.0",
+    .dependencies = .{
+        .zig_extras = .{
+            .url = "https://github.com/marler8997/zig-extras/archive/28c482345a098bfcec19bc0487cc2f8f4ec8c15d.tar.gz",
+            .hash = "122039cfc86011aa42ec53c907399defdfe3d401f24abbc36530ac403e49d6971da9",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "LICENSE",
+        "licenses.txt",
+        "Parser.zig",
+        "README.md",
+        "src",
+    },
+}
